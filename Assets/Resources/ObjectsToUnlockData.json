@@ -1,0 +1,38 @@
+{
+	"objectsToUnlock": [
+		{
+			"type":"Shield",
+			"attribute":5		
+		},
+		{
+			"type":"Weapon",
+			"attribute":1
+		},
+		{
+			"type":"Shield",
+			"attribute":10		
+		},
+		{
+			"type":"Bomb",
+			"attribute":1
+		},
+		{
+			"type":"Shield",
+			"attribute":15		
+		},
+		{
+			"type":"Weapon",
+			"attribute":2
+		},
+		{
+			"type":"Shield",
+			"attribute":20		
+		},
+		{
+			"type":"Bomb",
+			"attribute":2
+		}
+		
+	]
+	
+}

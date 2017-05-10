@@ -1,0 +1,20 @@
+{
+	"levels": [
+		{
+			"id":1,
+			"enemies":5,
+			"gems":3,
+			"locked":false,	
+			"gemsToUnlock":0			
+		},
+		{
+			"id":2,
+			"enemies":9,
+			"gems":3,
+			"locked":true,
+			"gemsToUnlock":3				
+		}
+		
+	]
+	
+}

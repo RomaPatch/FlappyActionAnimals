@@ -1,0 +1,2173 @@
+fileFormatVersion: 2
+guid: b351598dfb6e8354db28c531b044f348
+timeCreated: 1491054774
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mbarcadeenemies_spritesheet_2_0
+    21300002: mbarcadeenemies_spritesheet_2_1
+    21300004: mbarcadeenemies_spritesheet_2_2
+    21300006: mbarcadeenemies_spritesheet_2_3
+    21300008: mbarcadeenemies_spritesheet_2_4
+    21300010: mbarcadeenemies_spritesheet_2_5
+    21300012: mbarcadeenemies_spritesheet_2_6
+    21300014: mbarcadeenemies_spritesheet_2_7
+    21300016: mbarcadeenemies_spritesheet_2_8
+    21300018: mbarcadeenemies_spritesheet_2_9
+    21300020: mbarcadeenemies_spritesheet_2_10
+    21300022: mbarcadeenemies_spritesheet_2_11
+    21300024: mbarcadeenemies_spritesheet_2_12
+    21300026: mbarcadeenemies_spritesheet_2_13
+    21300028: mbarcadeenemies_spritesheet_2_14
+    21300030: mbarcadeenemies_spritesheet_2_15
+    21300032: mbarcadeenemies_spritesheet_2_16
+    21300034: mbarcadeenemies_spritesheet_2_17
+    21300036: mbarcadeenemies_spritesheet_2_18
+    21300038: mbarcadeenemies_spritesheet_2_19
+    21300040: mbarcadeenemies_spritesheet_2_20
+    21300042: mbarcadeenemies_spritesheet_2_21
+    21300044: mbarcadeenemies_spritesheet_2_22
+    21300046: mbarcadeenemies_spritesheet_2_23
+    21300048: mbarcadeenemies_spritesheet_2_24
+    21300050: mbarcadeenemies_spritesheet_2_25
+    21300052: mbarcadeenemies_spritesheet_2_26
+    21300054: mbarcadeenemies_spritesheet_2_27
+    21300056: mbarcadeenemies_spritesheet_2_28
+    21300058: mbarcadeenemies_spritesheet_2_29
+    21300060: mbarcadeenemies_spritesheet_2_30
+    21300062: mbarcadeenemies_spritesheet_2_31
+    21300064: mbarcadeenemies_spritesheet_2_32
+    21300066: mbarcadeenemies_spritesheet_2_33
+    21300068: mbarcadeenemies_spritesheet_2_34
+    21300070: mbarcadeenemies_spritesheet_2_35
+    21300072: mbarcadeenemies_spritesheet_2_36
+    21300074: mbarcadeenemies_spritesheet_2_37
+    21300076: mbarcadeenemies_spritesheet_2_38
+    21300078: mbarcadeenemies_spritesheet_2_39
+    21300080: mbarcadeenemies_spritesheet_2_40
+    21300082: mbarcadeenemies_spritesheet_2_41
+    21300084: mbarcadeenemies_spritesheet_2_42
+    21300086: mbarcadeenemies_spritesheet_2_43
+    21300088: mbarcadeenemies_spritesheet_2_44
+    21300090: mbarcadeenemies_spritesheet_2_45
+    21300092: mbarcadeenemies_spritesheet_2_46
+    21300094: mbarcadeenemies_spritesheet_2_47
+    21300096: mbarcadeenemies_spritesheet_2_48
+    21300098: mbarcadeenemies_spritesheet_2_49
+    21300100: mbarcadeenemies_spritesheet_2_50
+    21300102: mbarcadeenemies_spritesheet_2_51
+    21300104: mbarcadeenemies_spritesheet_2_52
+    21300106: mbarcadeenemies_spritesheet_2_53
+    21300108: mbarcadeenemies_spritesheet_2_54
+    21300110: mbarcadeenemies_spritesheet_2_55
+    21300112: mbarcadeenemies_spritesheet_2_56
+    21300114: mbarcadeenemies_spritesheet_2_57
+    21300116: mbarcadeenemies_spritesheet_2_58
+    21300118: mbarcadeenemies_spritesheet_2_59
+    21300120: mbarcadeenemies_spritesheet_2_60
+    21300122: mbarcadeenemies_spritesheet_2_61
+    21300124: mbarcadeenemies_spritesheet_2_62
+    21300126: mbarcadeenemies_spritesheet_2_63
+    21300128: mbarcadeenemies_spritesheet_2_64
+    21300130: mbarcadeenemies_spritesheet_2_65
+    21300132: mbarcadeenemies_spritesheet_2_66
+    21300134: mbarcadeenemies_spritesheet_2_67
+    21300136: mbarcadeenemies_spritesheet_2_68
+    21300138: mbarcadeenemies_spritesheet_2_69
+    21300140: mbarcadeenemies_spritesheet_2_70
+    21300142: mbarcadeenemies_spritesheet_2_71
+    21300144: mbarcadeenemies_spritesheet_2_72
+    21300146: mbarcadeenemies_spritesheet_2_73
+    21300148: mbarcadeenemies_spritesheet_2_74
+    21300150: mbarcadeenemies_spritesheet_2_75
+    21300152: mbarcadeenemies_spritesheet_2_76
+    21300154: mbarcadeenemies_spritesheet_2_77
+    21300156: mbarcadeenemies_spritesheet_2_78
+    21300158: mbarcadeenemies_spritesheet_2_79
+    21300160: mbarcadeenemies_spritesheet_2_80
+    21300162: mbarcadeenemies_spritesheet_2_81
+    21300164: mbarcadeenemies_spritesheet_2_82
+    21300166: mbarcadeenemies_spritesheet_2_83
+    21300168: mbarcadeenemies_spritesheet_2_84
+    21300170: mbarcadeenemies_spritesheet_2_85
+    21300172: mbarcadeenemies_spritesheet_2_86
+    21300174: mbarcadeenemies_spritesheet_2_87
+    21300176: mbarcadeenemies_spritesheet_2_88
+    21300178: mbarcadeenemies_spritesheet_2_89
+    21300180: mbarcadeenemies_spritesheet_2_90
+    21300182: mbarcadeenemies_spritesheet_2_91
+    21300184: mbarcadeenemies_spritesheet_2_92
+    21300186: mbarcadeenemies_spritesheet_2_93
+    21300188: mbarcadeenemies_spritesheet_2_94
+    21300190: mbarcadeenemies_spritesheet_2_95
+    21300192: mbarcadeenemies_spritesheet_2_96
+    21300194: mbarcadeenemies_spritesheet_2_97
+    21300196: mbarcadeenemies_spritesheet_2_98
+    21300198: mbarcadeenemies_spritesheet_2_99
+    21300200: mbarcadeenemies_spritesheet_2_100
+    21300202: mbarcadeenemies_spritesheet_2_101
+    21300204: mbarcadeenemies_spritesheet_2_102
+    21300206: mbarcadeenemies_spritesheet_2_103
+    21300208: mbarcadeenemies_spritesheet_2_104
+    21300210: mbarcadeenemies_spritesheet_2_105
+    21300212: mbarcadeenemies_spritesheet_2_106
+    21300214: mbarcadeenemies_spritesheet_2_107
+    21300216: mbarcadeenemies_spritesheet_2_108
+    21300218: mbarcadeenemies_spritesheet_2_109
+    21300220: mbarcadeenemies_spritesheet_2_110
+    21300222: mbarcadeenemies_spritesheet_2_111
+    21300224: mbarcadeenemies_spritesheet_2_112
+    21300226: mbarcadeenemies_spritesheet_2_113
+    21300228: mbarcadeenemies_spritesheet_2_114
+    21300230: mbarcadeenemies_spritesheet_2_115
+    21300232: mbarcadeenemies_spritesheet_2_116
+    21300234: mbarcadeenemies_spritesheet_2_117
+    21300236: mbarcadeenemies_spritesheet_2_118
+    21300238: mbarcadeenemies_spritesheet_2_119
+    21300240: mbarcadeenemies_spritesheet_2_120
+    21300242: mbarcadeenemies_spritesheet_2_121
+    21300244: mbarcadeenemies_spritesheet_2_122
+    21300246: mbarcadeenemies_spritesheet_2_123
+    21300248: mbarcadeenemies_spritesheet_2_124
+    21300250: mbarcadeenemies_spritesheet_2_125
+    21300252: mbarcadeenemies_spritesheet_2_126
+    21300254: mbarcadeenemies_spritesheet_2_127
+    21300256: mbarcadeenemies_spritesheet_2_128
+    21300258: mbarcadeenemies_spritesheet_2_129
+    21300260: mbarcadeenemies_spritesheet_2_130
+    21300262: mbarcadeenemies_spritesheet_2_131
+    21300264: mbarcadeenemies_spritesheet_2_132
+    21300266: mbarcadeenemies_spritesheet_2_133
+    21300268: mbarcadeenemies_spritesheet_2_134
+    21300270: mbarcadeenemies_spritesheet_2_135
+    21300272: mbarcadeenemies_spritesheet_2_136
+    21300274: mbarcadeenemies_spritesheet_2_137
+    21300276: mbarcadeenemies_spritesheet_2_138
+    21300278: mbarcadeenemies_spritesheet_2_139
+    21300280: mbarcadeenemies_spritesheet_2_140
+    21300282: mbarcadeenemies_spritesheet_2_141
+    21300284: mbarcadeenemies_spritesheet_2_142
+    21300286: mbarcadeenemies_spritesheet_2_143
+    21300288: mbarcadeenemies_spritesheet_2_144
+    21300290: mbarcadeenemies_spritesheet_2_145
+    21300292: mbarcadeenemies_spritesheet_2_146
+    21300294: mbarcadeenemies_spritesheet_2_147
+    21300296: mbarcadeenemies_spritesheet_2_148
+    21300298: mbarcadeenemies_spritesheet_2_149
+    21300300: mbarcadeenemies_spritesheet_2_150
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 159
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 159
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 159
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_7
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_9
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 159
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 160
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 160
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_14
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 160
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 163
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_16
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_19
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 160
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_20
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 160
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_21
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 160
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 141
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 141
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_24
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 141
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_25
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 141
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 141
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_27
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 141
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 141
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 141
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 141
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_31
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 141
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_32
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 141
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_33
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 141
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_34
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 142
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_35
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 142
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_36
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 142
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_37
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 145
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 143
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 143
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_40
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 145
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 142
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_42
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 142
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_43
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 142
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 123
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 123
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_46
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 123
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_47
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 123
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_48
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 123
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 123
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_50
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 123
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 123
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_52
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 123
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 123
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 123
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_55
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 123
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_56
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 124
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_57
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 124
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_58
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 124
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_59
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 127
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_60
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 125
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_61
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 125
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_62
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 127
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_63
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 124
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_64
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 124
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_65
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 124
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_66
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_67
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_68
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_69
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 104
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_70
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 104
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_71
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 104
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_72
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 107
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_73
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 104
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_74
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 104
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_75
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 104
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_76
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 104
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_77
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 107
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_78
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 104
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_79
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 104
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_80
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 104
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_81
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_82
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_83
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 105
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_84
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_85
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 109
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_86
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 102
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_87
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 83
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_88
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 87
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_89
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_90
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_91
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 86
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_92
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 86
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_93
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 86
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_94
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 89
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_95
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 86
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_96
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 86
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_97
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 86
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_98
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 86
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_99
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 89
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_100
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 86
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_101
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 86
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_102
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 86
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_103
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_104
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_105
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 87
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_106
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 92
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_107
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_108
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 69
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_109
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 50
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_110
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_111
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 50
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_112
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 45
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_113
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_114
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 45
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_115
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 68
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_116
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 45
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_117
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 68
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_118
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 42
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_119
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 68
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_120
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 42
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_121
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 71
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_122
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 42
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_123
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 68
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_124
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 42
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_125
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 68
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_126
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 42
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_127
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 68
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_128
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 68
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_129
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 42
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_130
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 71
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_131
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 45
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_132
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 68
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_133
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 45
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_134
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 68
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_135
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 45
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_136
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 68
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_137
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 50
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_138
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 50
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_139
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_140
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 50
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_141
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_142
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_143
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 69
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_144
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_145
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 54
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_146
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 54
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_147
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 51
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_148
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 55
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_149
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 55
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mbarcadeenemies_spritesheet_2_150
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 53
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
