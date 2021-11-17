@@ -29,25 +29,25 @@ public class FinalScreenController : MonoBehaviour
     void Awake()
     {
         gameObject.SetActive(false);
-        transform.FindChild("BackGround").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
+        transform.Find("BackGround").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
 
-        title = transform.FindChild("Title");
-        icons = transform.FindChild("HUD");
-        nextButton = transform.FindChild("NextButton");
+        title = transform.Find("Title");
+        icons = transform.Find("HUD");
+        nextButton = transform.Find("NextButton");
         nextButton.gameObject.SetActive(false);
 
         title.GetComponent<Text>().CrossFadeAlpha(0, 0, true);
-        icons.FindChild("EnemiesIcon").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
-        icons.FindChild("EnemiesIcon").GetChild(0).GetComponent<Text>().CrossFadeAlpha(0, 0, true);
-        icons.FindChild("GemIcon").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
-        icons.FindChild("GemIcon").GetChild(0).GetComponent<Text>().CrossFadeAlpha(0, 0, true);
-        icons.FindChild("ChestIcon").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
+        icons.Find("EnemiesIcon").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
+        icons.Find("EnemiesIcon").GetChild(0).GetComponent<Text>().CrossFadeAlpha(0, 0, true);
+        icons.Find("GemIcon").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
+        icons.Find("GemIcon").GetChild(0).GetComponent<Text>().CrossFadeAlpha(0, 0, true);
+        icons.Find("ChestIcon").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
         nextButton.GetComponent<Image>().CrossFadeAlpha(0, 0, true);
 
-        enemiesKilledReward = transform.FindChild("EnemiesKilledReward");
-        enemiesKilledReward.FindChild("Object").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
-        enemiesKilledReward.FindChild("Text").GetComponent<Text>().CrossFadeAlpha(0, 0, true);
-        enemiesKilledReward.FindChild("Button").GetComponent<Image>().CrossFadeAlpha(0,0,true);
+        enemiesKilledReward = transform.Find("EnemiesKilledReward");
+        enemiesKilledReward.Find("Object").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
+        enemiesKilledReward.Find("Text").GetComponent<Text>().CrossFadeAlpha(0, 0, true);
+        enemiesKilledReward.Find("Button").GetComponent<Image>().CrossFadeAlpha(0,0,true);
 
         nextScreenMethod = ENEMIES_REWARD_SCREEN;
 
@@ -74,21 +74,21 @@ public class FinalScreenController : MonoBehaviour
     IEnumerator AnimeFinalScreen()
     {
         yield return new WaitForSeconds(3.0f);
-        transform.FindChild("BackGround").GetComponent<Image>().CrossFadeAlpha(1, 0, true);
+        transform.Find("BackGround").GetComponent<Image>().CrossFadeAlpha(1, 0, true);
         SetTitleText();
         SetEnemiesKilledText();
         SetGemsPickedUpText();
         title.GetComponent<Text>().CrossFadeAlpha(1, 1, true);
         yield return new WaitForSeconds(1);
-        icons.FindChild("EnemiesIcon").GetComponent<Image>().CrossFadeAlpha(GetEnemiesIconAlpha(), 1, true);
+        icons.Find("EnemiesIcon").GetComponent<Image>().CrossFadeAlpha(GetEnemiesIconAlpha(), 1, true);
         yield return new WaitForSeconds(1);
-        icons.FindChild("EnemiesIcon").GetChild(0).GetComponent<Text>().CrossFadeAlpha(1, 1, true);
+        icons.Find("EnemiesIcon").GetChild(0).GetComponent<Text>().CrossFadeAlpha(1, 1, true);
         yield return new WaitForSeconds(1);
-        icons.FindChild("GemIcon").GetComponent<Image>().CrossFadeAlpha(GetGemIconAlpha(), 1, true);
+        icons.Find("GemIcon").GetComponent<Image>().CrossFadeAlpha(GetGemIconAlpha(), 1, true);
         yield return new WaitForSeconds(1);
-        icons.FindChild("GemIcon").GetChild(0).GetComponent<Text>().CrossFadeAlpha(1, 1, true);
+        icons.Find("GemIcon").GetChild(0).GetComponent<Text>().CrossFadeAlpha(1, 1, true);
         yield return new WaitForSeconds(1);
-        icons.FindChild("ChestIcon").GetComponent<Image>().CrossFadeAlpha(GetChestIconAlpha(), 1, true);
+        icons.Find("ChestIcon").GetComponent<Image>().CrossFadeAlpha(GetChestIconAlpha(), 1, true);
         yield return new WaitForSeconds(1);
         nextButton.gameObject.SetActive(true);
         nextButton.GetComponent<Image>().CrossFadeAlpha(1, 1, true);
@@ -104,14 +104,14 @@ public class FinalScreenController : MonoBehaviour
         var enemiesKilled = LevelManager.instance.enemiesKilled;
         var enemiesOnLevel = LevelManager.instance.enemiesOnLevel;
 
-        icons.FindChild("EnemiesIcon").GetChild(0).GetComponent<Text>().text = enemiesKilled + " / " + enemiesOnLevel;
+        icons.Find("EnemiesIcon").GetChild(0).GetComponent<Text>().text = enemiesKilled + " / " + enemiesOnLevel;
     }
 
     private void SetGemsPickedUpText()
     {
         var gemsPickedUp = LevelManager.instance.gemsPickedUp;
         var gemsOnLevel = LevelManager.instance.gemsOnLevel;
-        icons.FindChild("GemIcon").GetChild(0).GetComponent<Text>().text = gemsPickedUp + " / " + gemsOnLevel;
+        icons.Find("GemIcon").GetChild(0).GetComponent<Text>().text = gemsPickedUp + " / " + gemsOnLevel;
     }
 
     private float GetEnemiesIconAlpha()
@@ -155,8 +155,8 @@ public class FinalScreenController : MonoBehaviour
         nextButton.GetComponent<Image>().CrossFadeAlpha(0, 0, true);
         nextButton.gameObject.SetActive(false);
 
-        enemiesKilledReward.FindChild("Button").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
-        enemiesKilledReward.FindChild("Button").gameObject.SetActive(false);
+        enemiesKilledReward.Find("Button").GetComponent<Image>().CrossFadeAlpha(0, 0, true);
+        enemiesKilledReward.Find("Button").gameObject.SetActive(false);
         Invoke(nextScreenMethod,0);
     }
 
@@ -184,8 +184,8 @@ public class FinalScreenController : MonoBehaviour
         SetObjectUnlockText(objectToUnlock);
         SetObjectUnlockImage(objectToUnlock);
 
-        enemiesKilledReward.FindChild("Object").GetComponent<Image>().CrossFadeAlpha(1, 2, true);
-        enemiesKilledReward.FindChild("Text").GetComponent<Text>().CrossFadeAlpha(1, 1, true);
+        enemiesKilledReward.Find("Object").GetComponent<Image>().CrossFadeAlpha(1, 2, true);
+        enemiesKilledReward.Find("Text").GetComponent<Text>().CrossFadeAlpha(1, 1, true);
         yield return new WaitForSeconds(3.0f);
         nextButton.gameObject.SetActive(true);
         nextButton.GetComponent<Image>().CrossFadeAlpha(1, 1, true);
@@ -202,7 +202,7 @@ public class FinalScreenController : MonoBehaviour
 
             if (!isShieldUnlocked){shieldTitle = "Shield Upgrade! \n";}
 
-            enemiesKilledReward.FindChild("Text").GetComponent<Text>().text = shieldTitle + shieldText;
+            enemiesKilledReward.Find("Text").GetComponent<Text>().text = shieldTitle + shieldText;
         }
 
         if (objectToUnlock.type == "Weapon")
@@ -210,7 +210,7 @@ public class FinalScreenController : MonoBehaviour
             var shieldTitle = "Weapon Unlocked! \n";
             var shieldText = "Kill enemies and destroy objects faster. Try it!";
             
-            enemiesKilledReward.FindChild("Text").GetComponent<Text>().text = shieldTitle + shieldText;
+            enemiesKilledReward.Find("Text").GetComponent<Text>().text = shieldTitle + shieldText;
         }
     }
 
@@ -219,15 +219,15 @@ public class FinalScreenController : MonoBehaviour
         if (objectToUnlock.type == "Shield")
         {
             GameObject shieldSprite = (GameObject)Resources.Load("greenShieldSprite");
-            enemiesKilledReward.FindChild("Object").GetComponent<Image>().overrideSprite = shieldSprite.GetComponent<SpriteRenderer>().sprite;
-            enemiesKilledReward.FindChild("Object").localScale = new Vector3(1, 1, 1);
+            enemiesKilledReward.Find("Object").GetComponent<Image>().overrideSprite = shieldSprite.GetComponent<SpriteRenderer>().sprite;
+            enemiesKilledReward.Find("Object").localScale = new Vector3(1, 1, 1);
         }
 
         if (objectToUnlock.type == "Weapon")
         {
             GameObject weaponSprite = (GameObject)Resources.Load("DoubleShootPrefab");
-            enemiesKilledReward.FindChild("Object").GetComponent<Image>().overrideSprite = weaponSprite.GetComponent<SpriteRenderer>().sprite;
-            enemiesKilledReward.FindChild("Object").localScale = new Vector3(1,0.6f,1);
+            enemiesKilledReward.Find("Object").GetComponent<Image>().overrideSprite = weaponSprite.GetComponent<SpriteRenderer>().sprite;
+            enemiesKilledReward.Find("Object").localScale = new Vector3(1,0.6f,1);
         }
     }
 
@@ -254,12 +254,12 @@ public class FinalScreenController : MonoBehaviour
      
         SetAnimalUnlockedImageAndText();
 
-        enemiesKilledReward.FindChild("Object").GetComponent<Image>().CrossFadeAlpha(1, 2, true);
-        enemiesKilledReward.FindChild("Text").GetComponent<Text>().CrossFadeAlpha(1, 1, true);
+        enemiesKilledReward.Find("Object").GetComponent<Image>().CrossFadeAlpha(1, 2, true);
+        enemiesKilledReward.Find("Text").GetComponent<Text>().CrossFadeAlpha(1, 1, true);
         yield return new WaitForSeconds(1.0f);
-        enemiesKilledReward.FindChild("Button").FindChild("Text").GetComponent<Text>().text = "SELECT!";
-        enemiesKilledReward.FindChild("Button").gameObject.SetActive(true);
-        enemiesKilledReward.FindChild("Button").GetComponent<Image>().CrossFadeAlpha(1, 1, true);
+        enemiesKilledReward.Find("Button").Find("Text").GetComponent<Text>().text = "SELECT!";
+        enemiesKilledReward.Find("Button").gameObject.SetActive(true);
+        enemiesKilledReward.Find("Button").GetComponent<Image>().CrossFadeAlpha(1, 1, true);
 
         yield return new WaitForSeconds(3.0f);
         nextButton.gameObject.SetActive(true);
@@ -274,11 +274,11 @@ public class FinalScreenController : MonoBehaviour
         String animalResourceName = (string)AnimalsData.animalsResourceName[AnimalsData.GetAnimalByIndex(GameManager.instance.GetAnimalUnlockedIndex())];
         GameObject animalResource = (GameObject)Resources.Load(animalResourceName);
 
-        enemiesKilledReward.FindChild("Text").GetComponent<Text>().text = "ANIMAL UNLOCKED: " + animal +"!";
+        enemiesKilledReward.Find("Text").GetComponent<Text>().text = "ANIMAL UNLOCKED: " + animal +"!";
 
-        enemiesKilledReward.FindChild("Object").GetComponent<Image>().overrideSprite = animalResource.GetComponent<SpriteRenderer>().sprite;
+        enemiesKilledReward.Find("Object").GetComponent<Image>().overrideSprite = animalResource.GetComponent<SpriteRenderer>().sprite;
         
-        enemiesKilledReward.FindChild("Object").localScale = new Vector3(1, 1, 1);
+        enemiesKilledReward.Find("Object").localScale = new Vector3(1, 1, 1);
     }
 
 
@@ -306,18 +306,18 @@ public class FinalScreenController : MonoBehaviour
         ObjectToUnlock objectToUnlock = GameManager.instance.objectToUnlock;
         title.GetComponent<Text>().text = "LEVEL UNLOCKED!";
 
-        enemiesKilledReward.FindChild("Text").GetComponent<Text>().text = "You have unlocked LEVEL " + level;
+        enemiesKilledReward.Find("Text").GetComponent<Text>().text = "You have unlocked LEVEL " + level;
 
         var lockSprite = (GameObject) Resources.Load("unlocked");
-        enemiesKilledReward.FindChild("Object").GetComponent<Image>().overrideSprite = lockSprite.GetComponent<SpriteRenderer>().sprite;
-        enemiesKilledReward.FindChild("Object").localScale = new Vector3(1, 1, 1);
+        enemiesKilledReward.Find("Object").GetComponent<Image>().overrideSprite = lockSprite.GetComponent<SpriteRenderer>().sprite;
+        enemiesKilledReward.Find("Object").localScale = new Vector3(1, 1, 1);
 
-        enemiesKilledReward.FindChild("Object").GetComponent<Image>().CrossFadeAlpha(1, 2, true);
-        enemiesKilledReward.FindChild("Text").GetComponent<Text>().CrossFadeAlpha(1, 1, true);
+        enemiesKilledReward.Find("Object").GetComponent<Image>().CrossFadeAlpha(1, 2, true);
+        enemiesKilledReward.Find("Text").GetComponent<Text>().CrossFadeAlpha(1, 1, true);
         yield return new WaitForSeconds(1.0f);
-        enemiesKilledReward.FindChild("Button").FindChild("Text").GetComponent<Text>().text = "PLAY NOW!";
-        enemiesKilledReward.FindChild("Button").gameObject.SetActive(true);
-        enemiesKilledReward.FindChild("Button").GetComponent<Image>().CrossFadeAlpha(1, 1, true);
+        enemiesKilledReward.Find("Button").Find("Text").GetComponent<Text>().text = "PLAY NOW!";
+        enemiesKilledReward.Find("Button").gameObject.SetActive(true);
+        enemiesKilledReward.Find("Button").GetComponent<Image>().CrossFadeAlpha(1, 1, true);
         yield return new WaitForSeconds(3.0f);
         nextButton.gameObject.SetActive(true);
         nextButton.GetComponent<Image>().CrossFadeAlpha(1, 1, true);
@@ -333,7 +333,7 @@ public class FinalScreenController : MonoBehaviour
 
     public void ActionButtonPointerUp()
     {
-        enemiesKilledReward.FindChild("Button").gameObject.SetActive(false);
+        enemiesKilledReward.Find("Button").gameObject.SetActive(false);
         if (currentScreen == LEVEL_UNLOCKED_SCREEN)
         {
             GameManager.instance.StartGame(levelUnlocked);

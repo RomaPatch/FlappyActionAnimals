@@ -21,8 +21,8 @@ public class AnimalsIconsController : MonoBehaviour
             if (i > GameManager.instance.GetAnimalUnlockedIndex())
             {
                 animalsButtons[i].interactable = false;
-                animalsButtons[i].transform.FindChild("Locked").gameObject.SetActive(true);
-                animalsButtons[i].transform.FindChild("Unlocked").gameObject.SetActive(false);
+                animalsButtons[i].transform.Find("Locked").gameObject.SetActive(true);
+                animalsButtons[i].transform.Find("Unlocked").gameObject.SetActive(false);
             }
         }
 
@@ -54,13 +54,13 @@ public class AnimalsIconsController : MonoBehaviour
         {
             var animalButton = animalsButtons[i];
 
-            animalButton.transform.FindChild("Unlocked").FindChild("Selected").gameObject.SetActive(false);
-            animalButton.transform.FindChild("Unlocked").FindChild("Button").gameObject.SetActive(true);
+            animalButton.transform.Find("Unlocked").Find("Selected").gameObject.SetActive(false);
+            animalButton.transform.Find("Unlocked").Find("Button").gameObject.SetActive(true);
 
             if (i == index)
             {
-                animalButton.transform.FindChild("Unlocked").FindChild("Selected").gameObject.SetActive(true);
-                animalButton.transform.FindChild("Unlocked").FindChild("Button").gameObject.SetActive(false);
+                animalButton.transform.Find("Unlocked").Find("Selected").gameObject.SetActive(true);
+                animalButton.transform.Find("Unlocked").Find("Button").gameObject.SetActive(false);
                 selectedIndex = i;
 
                 GameManager.instance.SaveAnimalSelected(selectedIndex);
@@ -72,8 +72,8 @@ public class AnimalsIconsController : MonoBehaviour
     {
         var animalToUnlock = animalsButtons[GameManager.instance.GetAnimalUnlockedIndex()+1];
         animalToUnlock.interactable = true;
-        animalToUnlock.transform.FindChild("Locked").gameObject.SetActive(false);
-        animalToUnlock.transform.FindChild("Unlocked").gameObject.SetActive(true);
+        animalToUnlock.transform.Find("Locked").gameObject.SetActive(false);
+        animalToUnlock.transform.Find("Unlocked").gameObject.SetActive(true);
 
     }
 

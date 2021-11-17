@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyActionAnimals.CSharp", "FlappyActionAnimals.CSharp.csproj", "{9C4A1958-AA8C-BDF8-099F-95F345F51D62}"
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{24F21047-9AE6-DF5B-CAD8-7B0E73B57F4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9C4A1958-AA8C-BDF8-099F-95F345F51D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C4A1958-AA8C-BDF8-099F-95F345F51D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C4A1958-AA8C-BDF8-099F-95F345F51D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C4A1958-AA8C-BDF8-099F-95F345F51D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F21047-9AE6-DF5B-CAD8-7B0E73B57F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F21047-9AE6-DF5B-CAD8-7B0E73B57F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F21047-9AE6-DF5B-CAD8-7B0E73B57F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F21047-9AE6-DF5B-CAD8-7B0E73B57F4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

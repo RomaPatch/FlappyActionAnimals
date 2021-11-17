@@ -54,7 +54,7 @@ public class LevelsIconsController : MonoBehaviour
         }
 
         levelsButtons[iconIndex].interactable = false;
-        levelsButtons[iconIndex].transform.FindChild("Text").GetComponent<Text>().text = "Stage " + (iconIndex + 1);
+        levelsButtons[iconIndex].transform.Find("Text").GetComponent<Text>().text = "Stage " + (iconIndex + 1);
         ActiveLockOrUnlock(GameManager.instance.levelConfig.levels[iconIndex], levelsButtons[iconIndex], savedData, iconIndex);
         ConfigureIconsTexts(GameManager.instance.levelConfig.levels[iconIndex], levelsButtons[iconIndex], savedLevelLevelData);
         ConfigureIconsVisibility(levelsButtons[iconIndex], savedLevelLevelData);
@@ -72,8 +72,8 @@ public class LevelsIconsController : MonoBehaviour
 
     private void ActiveLockOrUnlock(Level levelData,Button button, SavedData savedData, int iconIndex)
     {
-        var lockGO = button.transform.FindChild("Locked").gameObject;
-        var unlockGO = button.transform.FindChild("Unlocked").gameObject;
+        var lockGO = button.transform.Find("Locked").gameObject;
+        var unlockGO = button.transform.Find("Unlocked").gameObject;
 
         button.interactable = false;
      
@@ -100,9 +100,9 @@ public class LevelsIconsController : MonoBehaviour
 
     private void ConfigureIconsTexts(Level levelData, Button button, SavedLevelData savedLevelLevelData)
     {
-        var gemsToUnlockText = button.transform.FindChild("Locked").FindChild("GemsToUnlock").GetChild(0).GetComponent<Text>();
-        var enemiesText = button.transform.FindChild("Unlocked").FindChild("HUD").FindChild("EnemiesIcon").GetChild(0).GetComponent<Text>();
-        var gemText = button.transform.FindChild("Unlocked").FindChild("HUD").FindChild("GemIcon").GetChild(0).GetComponent<Text>();
+        var gemsToUnlockText = button.transform.Find("Locked").Find("GemsToUnlock").GetChild(0).GetComponent<Text>();
+        var enemiesText = button.transform.Find("Unlocked").Find("HUD").Find("EnemiesIcon").GetChild(0).GetComponent<Text>();
+        var gemText = button.transform.Find("Unlocked").Find("HUD").Find("GemIcon").GetChild(0).GetComponent<Text>();
 
         gemsToUnlockText.text = "x" + levelData.gemsToUnlock;
 
@@ -112,9 +112,9 @@ public class LevelsIconsController : MonoBehaviour
 
     private void ConfigureIconsVisibility(Button button, SavedLevelData savedLevelLevelData)
     {
-        var enemiesIconImage = button.transform.FindChild("Unlocked").FindChild("HUD").FindChild("EnemiesIcon").GetComponent<Image>();
-        var gemsIconGOImage  = button.transform.FindChild("Unlocked").FindChild("HUD").FindChild("GemIcon").GetComponent<Image>();
-        var chestIconGoImage = button.transform.FindChild("Unlocked").FindChild("HUD").FindChild("ChestIcon").GetComponent<Image>();
+        var enemiesIconImage = button.transform.Find("Unlocked").Find("HUD").Find("EnemiesIcon").GetComponent<Image>();
+        var gemsIconGOImage  = button.transform.Find("Unlocked").Find("HUD").Find("GemIcon").GetComponent<Image>();
+        var chestIconGoImage = button.transform.Find("Unlocked").Find("HUD").Find("ChestIcon").GetComponent<Image>();
 
         var enemiesIconAlpha = 0.3f;
         var gemsIconAlpha = 0.3f;

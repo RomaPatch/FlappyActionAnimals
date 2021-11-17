@@ -3,3 +3,10 @@
 /*.apk
 /flappyAction_Data
 /Temp/UnityVS_obj/Debug
+/Library/Artifacts
+/obj/Debug
+/Temp
+/Library/APIUpdater
+/Library/PackageCache
+/Library/PackageManager
+/Logs

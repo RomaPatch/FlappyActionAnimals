@@ -43,7 +43,7 @@ public class SpaceShipBehaviour : MonoBehaviour {
 
         rigidBody = transform.GetComponent<Rigidbody2D>();
         animator = transform.GetComponent<Animator>();
-        spawnBullets = transform.FindChild("spawnBullets");
+        spawnBullets = transform.Find("spawnBullets");
 
         axisDic.Add(ArrowKeysController.ArrowKeys.Up, 1);
         axisDic.Add(ArrowKeysController.ArrowKeys.Down, -1);
@@ -167,7 +167,7 @@ public class SpaceShipBehaviour : MonoBehaviour {
         arrowKeys.SetActive(false);
         shieldButton.SetActive(false);
         resetAxis();
-        transform.FindChild("shield").GetComponent<ShieldBehaviour>().StopShield();
+        transform.Find("shield").GetComponent<ShieldBehaviour>().StopShield();
     }
 
     private void resetAxis()
@@ -212,7 +212,7 @@ public class SpaceShipBehaviour : MonoBehaviour {
 
     public void ShieldButtonClicked()
     {
-        transform.FindChild("shield").gameObject.SetActive(true);
+        transform.Find("shield").gameObject.SetActive(true);
         shieldButton.SetActive(false);
     }
 

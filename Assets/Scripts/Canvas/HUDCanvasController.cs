@@ -8,7 +8,7 @@ public class HUDCanvasController : MonoBehaviour
     private HUDGameIconsController hudGameIconsController;
     void Awake()
     {
-        hudGameIconsController = transform.FindChild("HUD").GetComponent<HUDGameIconsController>();
+        hudGameIconsController = transform.Find("HUD").GetComponent<HUDGameIconsController>();
         //PlayerController.OnFinishedStage += ShowFinalScreen;
     }
 

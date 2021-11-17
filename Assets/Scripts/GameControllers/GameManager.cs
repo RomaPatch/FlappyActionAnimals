@@ -119,7 +119,7 @@ public class GameManager : MonoBehaviour
 
     void OnSaveDataFinished()
     {
-        GameObject.Find("HUDCanvas").transform.FindChild("FinalScreen").gameObject.SetActive(true);
+        GameObject.Find("HUDCanvas").transform.Find("FinalScreen").gameObject.SetActive(true);
         levelsIconsController.updateIconsLevels();
     }
 

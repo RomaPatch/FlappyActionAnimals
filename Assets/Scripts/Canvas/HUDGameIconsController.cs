@@ -38,16 +38,16 @@ public class HUDGameIconsController : MonoBehaviour
 
     public void ShowEnemiesIcon()
     {
-        this.transform.FindChild("EnemiesIcon").GetComponent<Image>().CrossFadeAlpha(opacity, 0, true);
+        this.transform.Find("EnemiesIcon").GetComponent<Image>().CrossFadeAlpha(opacity, 0, true);
     }
 
     public void ShowGemIcon()
     {
-        this.transform.FindChild("GemIcon").GetComponent<Image>().CrossFadeAlpha(opacity, 0, true);
+        this.transform.Find("GemIcon").GetComponent<Image>().CrossFadeAlpha(opacity, 0, true);
     }
 
     public void ShowChestIcon()
     {
-        this.transform.FindChild("ChestIcon").GetComponent<Image>().CrossFadeAlpha(opacity, 0, true);
+        this.transform.Find("ChestIcon").GetComponent<Image>().CrossFadeAlpha(opacity, 0, true);
     }
 }
